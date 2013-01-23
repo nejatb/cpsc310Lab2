@@ -29,7 +29,11 @@ import com.google.gwt.user.client.ui.Label;
 import com.sun.java.swing.plaf.windows.resources.windows;
 
 public class StockWatcher implements EntryPoint{
+//<<<<<<< HEAD
 	private static final int REFRESH_INTERVAL = 4000;//ms
+//=======
+//	private static final int REFRESH_INTERVAL = 7000;//ms
+//>>>>>>> refs/remotes/origin/test
 	private VerticalPanel mainPanel = new VerticalPanel();
 	private FlexTable stocksFlexTable = new FlexTable();
 	private HorizontalPanel addPanel = new HorizontalPanel();
